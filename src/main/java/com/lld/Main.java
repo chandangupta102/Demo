@@ -1,5 +1,6 @@
 package com.lld;
 
+import com.lld.java8.FunctionalInterfaceClass;
 import com.lld.java8.StreamIntermediateStateTest;
 import com.lld.java8.StreamTerminalStateTest;
 
@@ -21,6 +22,9 @@ public class Main {
 
         StreamIntermediateStateTest streamIntermediateStateTest = new StreamIntermediateStateTest();
         streamIntermediateStateTest.start();
+
+        FunctionalInterfaceClass functionalInterfaceClass = new FunctionalInterfaceClass();
+        functionalInterfaceClass.start();
 
 
 
