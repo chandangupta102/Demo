@@ -1,5 +1,6 @@
 package com.lld;
 
+import com.lld.java8.StreamIntermediateStateTest;
 import com.lld.java8.StreamTerminalStateTest;
 
 public class Main {
@@ -17,6 +18,11 @@ public class Main {
          */
         StreamTerminalStateTest streamTest = new StreamTerminalStateTest();
         streamTest.start();
+
+        StreamIntermediateStateTest streamIntermediateStateTest = new StreamIntermediateStateTest();
+        streamIntermediateStateTest.start();
+
+
 
     }
 }

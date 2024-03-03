@@ -58,5 +58,10 @@ public class StreamTerminalStateTest {
         int sum3 = Stream.of(new User(100),new User(200),new User(300)).reduce(0, (curr, user) -> curr +
                 user.salary, Integer::sum); //600
 
+        //7. forEachOrdered
+        Stream.of(1,2,3)
+                .parallel()
+                .forEachOrdered(System.out::println);
+
     }
 }
