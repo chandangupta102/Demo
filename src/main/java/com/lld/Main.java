@@ -1,6 +1,6 @@
 package com.lld;
 
-import com.lld.tictactoe.Game;
+import com.lld.java8.StreamTerminalStateTest;
 
 public class Main {
     public static void main(String args[]) {
@@ -9,8 +9,14 @@ public class Main {
         /**
          * Tic Tac Toe Game LLD Implementation
          */
-        Game game = new Game();
-        System.out.println("WINNER IS: " + game.start());
+//        Game game = new Game();
+//        System.out.println("WINNER IS: " + game.start());
+
+        /**
+         * Java 8 test
+         */
+        StreamTerminalStateTest streamTest = new StreamTerminalStateTest();
+        streamTest.start();
 
     }
 }
